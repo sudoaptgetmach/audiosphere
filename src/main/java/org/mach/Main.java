@@ -17,9 +17,9 @@ public class Main {
         classificacao.setClassificacao(podcast, 99);
         classificacao.setClassificacao(podcast, 1);
 
-        podcast.getNome();
-        podcast.getDescricao();
-        podcast.getDuracao();
+        System.out.println(podcast.getNome());
+        System.out.println(podcast.getDescricao());
+        System.out.println(podcast.getDuracao());
         classificacao.getClassificacao();
 
     }

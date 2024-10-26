@@ -34,14 +34,13 @@ public class Classificacao extends Audio {
         this.classificacoes.add(classificacao);
     }
 
-    public double getClassificacao() {
+    public void getClassificacao() {
         if (classificacoes.isEmpty()) {
-            return 0;
+            return;
         }
         int n = 0;
         for (int c : classificacoes) {
             n += c;
         }
-        return (double) n / classificacoes.size();
     }
 }

@@ -8,8 +8,7 @@ public abstract class Audio {
 
     private int totalDeReproducoes;
     private int curtidas;
-    private double classificacao;
-
+    
     public String getNome() {
         return nome;
     }
