@@ -1,4 +1,4 @@
-### Audio Classification Project
+### AudioSphere
 
 ## Visão Geral
 Este projeto é uma aplicação Java que permite aos usuários classificar conteúdos de áudio, como músicas e podcasts. As classificações são validadas e armazenadas, e a média das classificações pode ser recuperada.
@@ -21,8 +21,8 @@ Este projeto é uma aplicação Java que permite aos usuários classificar conte
 ### Instalação
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/yourusername/audioclassification.git
-    cd audioclassification
+    git clone https://github.com/sudoaptgetmach/audiosphere.git
+    cd audiosphere
     ```
 
 2. Construa o projeto usando Maven:
